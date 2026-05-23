@@ -1,0 +1,8 @@
+Este programa lo hice para simular un sistema automático que evalúa la situación académica de un estudiante en base a cuatro datos clave que se le piden al usuario: su edad, su promedio general, cuántas materias lleva reprobadas y las faltas que acumuló en el semestre.
+Cómo funciona la lógica (Explicación):
+ Entrada de datos: Primero uso printf y scanf para ir pidiendo y guardando cada una de las variables (como la edad en %d o el promedio en %f).
+ Evaluación del estado: Para la parte de la reinscripción, usé una estructura condicional if - else if organizada de la siguiente manera:
+    Si el alumno tiene más de 3 reprobadas, el programa entra en la primera condición e imprime directamente que no puede reinscribirse.
+    Si tiene 2 o menos, salta a la segunda condición (else if) autorizando su reinscripción.
+    Si no cumple ninguna de las anteriores y tiene exactamente 3 materias arrastrando, el sistema lo manda a una "Revisión especial".
+El código está acomodado con su indentación (los espacios hacia adentro) para que no se vea revuelto y sea fácil de leer tanto para mí como para el compilador.
