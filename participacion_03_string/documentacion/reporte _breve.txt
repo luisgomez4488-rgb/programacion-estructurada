@@ -1,0 +1,9 @@
+Reporte brevw
+El código es un ejercicio básico en C que explora el manejo de cadenas de texto (strings) utilizando arreglos unidimensionales y bidimensionales (matrices de caracteres).
+
+Puntos Clave
+Manejo individual: Inicializa y muestra nombres individuales (alumno1, alumno2).
+
+Sección interactiva (Con error): Intenta usar fgets para guardar una lista de nombres en char alumnos[5][16]. Sin embargo, pasar alumnos de esa forma lee solo una cadena sobre la matriz entera (o causa un conflicto de tipos), en lugar de iterar para pedir los 5 nombres uno por uno.
+
+Matriz estática: Muestra correctamente cómo asignar cadenas a una matriz usando strcpy (jugadores) y las imprime mediante un ciclo for.

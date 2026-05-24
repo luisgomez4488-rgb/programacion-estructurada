@@ -1,0 +1,14 @@
+Investigación: Usos de este código a inicios de la computación
+A finales de los 70 y durante los 80 (los inicios de C y la computación personal), las estructuras de arreglos bidimensionales fijos de caracteres como char jugadores[5][20] eran el estándar absoluto para resolver problemas debido a la memoria extremadamente limitada.
+
+Sus principales usos eran:
+
+Bases de Datos Primitivas: En sistemas donde no existía SQL o archivos complejos, los registros de texto (nombres de empleados, inventarios, listas de asistencia) se guardaban en matrices estáticas directamente en la memoria RAM antes de volcarse secuencialmente a un disco flexible o cinta.
+
+Sistemas de Archivos y Directorios: Los primeros sistemas operativos usaban estructuras similares para almacenar las listas de archivos de un directorio, donde cada nombre de archivo tenía un límite estricto de caracteres (como el famoso formato 8.3 de MS-DOS).
+
+Videojuegos de Texto y Arcades: Juegos basados en texto (MUDs) o los primeros tableros de puntuación (High Scores) de las maquinitas guardaban las iniciales y nombres de los jugadores en matrices fijas exactas (por ejemplo, 3 caracteres para el nombre como "AAA").
+
+Sistemas de Telecomunicación Tempranos (BBS): Para gestionar las listas de usuarios conectados o los comandos del sistema que procesaban las primeras redes de computadoras hogareñas.
+
+¿Por qué se usaba así? Porque la memoria dinámica (malloc) era costosa y peligrosa en sistemas con pocos kilobytes de RAM. Definir el tamaño exacto del texto desde el inicio aseguraba que el programa nunca se quedara sin memoria a mitad de su ejecución.
