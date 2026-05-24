@@ -1,0 +1,11 @@
+"El programa que desarrollé cumple con los 4 pasos solicitados en la actividad usando funciones separadas para que el código quede limpio:
+
+Captura: Primero, la función capturar le pide al usuario 6 números enteros mediante un ciclo y los guarda en el primer arreglo.
+
+Muestra Original: La función mostrar agarra ese arreglo y lo imprime bonito en la pantalla para comprobar qué datos metimos.
+
+Filtrado: Aquí está la lógica importante. La función filtrar revisa el arreglo original número por número con la condición origen[i] % 2 != 0. Si el número es impar, lo copia a un segundo arreglo. Al final, esta función le regresa al programa principal el conteo exacto de cuántos números se copiaron.
+
+Guardar en archivo: Por último, la función guardar_archivo crea un archivo de texto llamado resultado.txt y, usando un bucle con fprintf, escribe únicamente los números que se lograron filtrar, cerrando el archivo al terminar.
+
+Con esta práctica aprendí a separar el código en funciones específicas para que no esté todo amontonado en el main. Lo que más me gustó fue ver cómo los datos de la consola pueden salir del programa y quedarse guardados de verdad en un archivo de texto en mi computadora."

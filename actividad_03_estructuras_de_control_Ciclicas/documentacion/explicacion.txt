@@ -1,0 +1,6 @@
+
+Este código es un programa en C para *registrar calificaciones*, y su fuerte es que está blindado contra errores del usuario. Funciona en tres pasos sencillos:
+Primero, te pregunta cuántas notas vas a registrar. Si te equivocas y pones cero o un número negativo, el programa se da cuenta y te obliga a repetir el númer hasta que pongas uno válido.
+Segundo, arranca un conteo para pedirte las notas una por una. Aquí tiene otro candado: si intentas poner una nota menor a 0 o mayor a 100, el programa se frena, te dice que está fuera de rango y no te deja avanzar hasta que pongas una calificación real.
+Tercero, en cuanto pones una nota correcta, el programa hace la matemática: la suma a una bolsa total (suma) para el promedio y revisa si es un 60 o más; si es así, se lo anota al contador de aprobados.
+El único detalle es que el código se corta ahí; le falta la parte final para hacer la división del promedio y mostrarte los resultados en pantalla.

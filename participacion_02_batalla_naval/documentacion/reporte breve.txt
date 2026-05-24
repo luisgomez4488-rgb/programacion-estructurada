@@ -1,0 +1,15 @@
+Reporte Breve de la Práctica 
+Objetivo de la actividad: Crear un programa modular en C que pida 6 números enteros en un arreglo, filtre los números impares pasándolos a un segundo arreglo, y guarde ese resultado final en un archivo de texto llamado resultado.txt.
+
+Cómo funciona el código :
+"El programa que desarrollé está separado en funciones específicas para que el código quede limpio y no se amontone todo en el main:
+
+Captura de datos: La función capturar usa un ciclo for para pedirle al usuario 6 números uno por uno y los guarda en el arreglo original.
+
+Mostrar el original: La función mostrar agarra ese arreglo completo y lo imprime en la pantalla rodeado de corchetes [ ] para que se vea ordenado.
+
+El filtro: La función filtrar recorre el arreglo original número por número. Usando la condición del residuo (% 2 != 0), detecta cuáles son impares y los copia a un segundo arreglo llamado destino. Al terminar, esta función le regresa al main el conteo exacto de cuántos números sí se copiaron.
+
+Guardar el archivo: Por último, la función guardar_archivo crea el archivo resultado.txt y, mediante un ciclo con fprintf, escribe los números filtrados separados por un espacio, cerrando el archivo al terminar.
+
+Con esta práctica aprendí a estructurar un programa usando funciones para tareas específicas y descubrí cómo hacer que los datos salgan de la consola y se queden guardados de verdad en un archivo dentro de mi computadora."

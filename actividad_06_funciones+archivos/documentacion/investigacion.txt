@@ -1,0 +1,6 @@
+Investigación (Lo teórico)
+¿Cómo se pasan arreglos a una función? En C, cuando mandas un arreglo a una función, no se hace una copia de todos los datos; lo que se pasa es la dirección de memoria de donde empieza el arreglo. Por eso, cualquier cambio que hagas dentro de la función (como al capturar los datos) afecta directamente al arreglo original.
+
+¿Qué hace el operador residuo (%)? Este operador (el signo de porcentaje) nos da el sobrante de una división entera. Se usa para saber si un número es par o impar: si divides un número entre 2 y el residuo es 0, el número es par; pero si el residuo es diferente de 0, significa que es impar.
+
+¿Para qué sirve FILE, fopen y fclose? Son las herramientas básicas de C para manejar archivos externos. FILE es el tipo de dato para apuntar a un archivo, fopen sirve para crearlo o abrirlo (la "w" significa que vamos a escribir en él), y fclose es súper importante porque cierra el archivo y asegura que los datos sí se queden guardados en el disco duro.

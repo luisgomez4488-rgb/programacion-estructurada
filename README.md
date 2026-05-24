@@ -6,7 +6,7 @@
 
 # Código: \[219448835]
 
-# Sección: \[]
+# Sección: \[Ingeniería Informatica]
 
 # Profesor: \[Jorge Ernesto lopez arce]
 

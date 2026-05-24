@@ -1,0 +1,10 @@
+Reporte de la Práctica (Cómo funciona mi código)
+"El programa que hice funciona en tres pasos muy sencillos:
+
+Pedir los datos: El código usa un ciclo for para pedirle al usuario las 4 temperaturas una por una y las va acomodando en orden dentro del arreglo temperaturas[4].
+
+Mostrar la lista: Con otro ciclo, el programa vuelve a revisar el arreglo y avienta en la pantalla la lista de las temperaturas que se guardaron, usando %.2f para que los decimales no se vean larguísimos.
+
+Sacar cuentas: Al final, el último ciclo va sumando el valor de cada posición. Esa suma total se divide entre 4 y el programa nos da los resultados finales de la suma y el promedio.
+
+Con esta práctica aprendí que los arreglos te salvan la vida cuando manejas listas de datos, porque con un solo ciclo controlas toda la información sin tener que escribir fórmulas enormes a mano."

@@ -1,0 +1,18 @@
+1: Investigación Teórica
+1. ¿Qué es un Tipo de Dato Primitivo vs. No Primitivo?
+Tipos de Datos Primitivos: Son aquellos que vienen integrados por defecto en el lenguaje de programación y son los más básicos que existen. No se pueden descomponer en otros tipos de datos. En el lenguaje C, el compilador ya sabe exactamente cuánta memoria asignarles en cuanto los ve.
+
+Ejemplos: char (caracteres), int (enteros), float (decimales de precisión simple) y double (decimales  de doble precisión). Su valor se almacena directamente en el espacio de mmoria asignado.
+
+Tipos de Datos No Primitivos (o Compuestos/Estructurados): Son tipos de datos más complejos que el programador construye a partir de la combinación de los tipos primitivos. No vienen definidos de manera nativa con un comportamiento único, sino que se estructuran para almacenar múltiples valores o datos organizados.
+
+Ejemplos: Arreglos (arrays), estructuras (struct), uniones (union) y los propios punteros. Por ejemplo, una estructura "Estudiante" puede contener un int para el código, un char[] para el nombre y un float para el promedio.
+
+2. Importancia del Lenguaje C
+El lenguaje C es considerado uno de los pilares de la informática moderna por varias razones fundamentales:
+
+Control de bajo nivel con sintaxis de alto nivel: Permite interactuar casi directamente con el hardware de la computadora (como la gestión directa de la memoria a través de punteros) sin perder los beneficios de la programación estructurada.
+
+Eficiencia y rapidez: Al no tener un "recolector de basura" automático ni capas intermedias pesadas, los programas en C se ejecutan a la velocidad máxima que permita el procesador. Por eso se usa para crear sistemas operativos (como el kernel de Linux o Windows), controladores de hardware y videojuegos de alta gama.
+
+Base de otros lenguajes: La gran mayoría de los lenguajes modernos (C++, Java, C#, JavaScript, PHP) heredaron de forma directa su sintaxis y lógica de C. Aprender C te da los cimientos sólidos para entender cómo funciona realmente una computadora por dentro.

@@ -1,0 +1,6 @@
+Investigación 
+¿Qué es un Array (Arreglo)? Es como una caja con varias divisiones que te permite guardar una lista de datos del mismo tipo en una sola variable (por ejemplo, 4 temperaturas juntas), en lugar de inventar nombres diferentes para cada una.
+
+¿Por qué empieza en 0? En programación, la primera posición de una lista siempre es la posición 0, la segunda es la 1, y así nos vamos. Es la regla que usa la computadora para saber cuántos lugares moverse desde el inicio de la memoria.
+
+¿Para qué sirven los ciclos (bucles)? Son los mejores amigos de los arreglos. Con un ciclo for haces que la computadora recorra toda la lista automáticamente para leer los datos, mostrarlos o sumarlos, usando apenas dos o tres líneas de código.

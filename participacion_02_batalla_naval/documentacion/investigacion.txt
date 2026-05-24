@@ -1,0 +1,16 @@
+¿Cómo se piensa la Batalla Naval en código?
+La Matriz es el Tablero: El mapa del océano se programa como una cuadrícula (por ejemplo, una matriz de 10x10). En C se declararía algo así como int tablero[10][10];.
+
+Las Coordenadas: Para interactuar con el tablero necesitas dos índices en lugar de uno: el primero indica la fila (eje Y) y el segundo indica la columna (eje X). Cuando el usuario dice "Disparo en B5", el programa lo traduce internamente a números de matriz, por ejemplo, tablero[1][4].
+
+Los Estados del Mapa: Cada celda de la matriz guarda un número entero que representa lo que hay en esa parte del mar. Por ejemplo:
+
+0 = Agua limpia (todavía nadie ha disparado ahí).
+
+1 = Hay un barco oculto.
+
+2 = Disparo fallido (el jugador tiró al agua).
+
+3 = ¡Barco dañado/tocado!
+
+La Lógica del Juego: El juego corre dentro de un ciclo gigante (while) que no se detiene hasta que todos los barcos cambien su estado de 1 (vivo) a 3 (destruido). En cada turno, el programa usa un if para revisar qué número había en la coordenada que eligió el jugador y cambia el valor dependiendo de si acertó o falló.

@@ -1,0 +1,11 @@
+"Para esta práctica, hice un código en C que básicamente recrea la tabla que el profe dibujó en el pizarrón para ver cómo la computadora organiza las cosas en su memoria.
+
+El programa funciona en tres pasos sencillos:
+
+Guardar los datos: Primero creé varias variables con los tipos de datos que vimos en clase (un carácter, un número entero, un decimal, etc.) y les asigné un valor a cada una. Al hacer esto, la computadora en automático les aparta un cachito de espacio en la memoria RAM.
+
+Medir el tamaño: Para no inventarme los tamaños ni ponerlos 'a mano', usé un comando que se llama sizeof(). Este comando le pregunta a la computadora: 'Oye, ¿cuántos bytes mide esta variable?' y así nos da el tamaño exacto en la pantalla (por ejemplo, que el char mide 1 byte o el int mide 4).
+
+Buscar la dirección (en decimal): Para saber en qué parte exacta de la memoria se guardó cada variable, usé el símbolo & antes del nombre de cada una. Como la computadora normalmente nos da esas direcciones en un formato raro con letras y números (hexadecimal), le agregué una pequeña instrucción al código para que 'fuerce' a la máquina a traducir esa dirección a un número entero normal (decimal), que fue lo que pidió el profe en el Classroom.
+
+Al final, usé unos cuantos espacios en el comando printf para que al correr el programa en Code::Blocks, todo saliera bien alineado y ordenado en una tablita. Con esto se nota claramente que cada cosa que guardamos en la compu tiene un tamaño específico y un 'domicilio' único en la memoria RAM."
